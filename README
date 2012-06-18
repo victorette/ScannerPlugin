@@ -1,9 +1,9 @@
 
-A phonegap plugin of Android.
+Based on a phonegap plugin of Android.
 The plugin don't need to install the zxing barcode application.
 It includes a opimization of ZXing into project.
 
-Requirement
+Requirement (it will change soon)
 phonegap 1.0+
 android 2.2+
 
@@ -20,7 +20,7 @@ copy assets/www/lib/BarcodeScanner.js
 Useage
 set manifest ( ref: AndroidManifest.xml )
 set plugins ( ref: res/xml/plugins.xml )
-set bridge ( ref: src/com/urenwu/phonegap/plugin/barcodescanner/BarcodeScannerActivity.java )
+set bridge ( ref: src/br/com/realityup/wavebe/BarcodeScannerActivity.java )
 js code ( ref: assets/www/index.html )
 
 
